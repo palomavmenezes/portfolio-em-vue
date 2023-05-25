@@ -1,0 +1,53 @@
+// General Colors
+$purple: #712498;
+$pink: #CF6DFF;
+
+$white: #ffffff;
+$black: #000000;
+
+$dark-bg-gray-higher: #0C0C0C;
+$dark-bg-gray-lower: #131313;
+
+$light-gray-200: #c1c1c1;
+$light-gray-400: #c9c9c9;
+
+/// Default color variables
+$primary: $pink;
+
+$secondary: $purple;
+
+$heading-color: $primary;
+$text-dark: #C6C6C6;
+$text-light: #4B4B4B;
+$placeholder-color: #949494;
+
+
+// Link Colors
+$links: $purple;
+$links-hover: lighten($purple, 0.2%);
+
+/// Fonts Variables
+$font-primary: 'Fira Sans', sans-serif;
+$font-secondary: "Roboto", sans-serif;
+
+$font-default: $font-primary;
+$heading-font: $font-default;
+$text-font: $font-default;
+
+/// Fonts weight
+$fw-xlight: 200;
+$fw-light: 300;
+$fw-regular: 400;
+$fw-normal: $fw-regular;
+$fw-medium: 500;
+$fw-semi: 600;
+$fw-bold: 700;
+$fw-xbold: 800;
+$fw-black: 900;
+
+/// userSpaceOnUse
+$pad-space: 5rem;
+
+// Icons
+$icons_arrowright: "data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22Camada_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20viewBox%3D%220%200%2018%2014%22%20style%3D%22enable-background%3Anew%200%200%2018%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23#{$primary}%3Bstroke-width%3A1.5%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3B%7D%0A%3C%2Fstyle%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M17%2C7H1%22%2F%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M10%2C1l7%2C6l-7%2C6%22%2F%3E%0A%3C%2Fsvg%3E%0A";
+$icons_arrowleft: "data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20id%3D%22Camada_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0A%09%20width%3D%2218px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2018%2014%22%20style%3D%22enable-background%3Anew%200%200%2018%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3Anone%3Bstroke%3A%23#{$primary}%3Bstroke-width%3A1.5%3Bstroke-linecap%3Around%3Bstroke-linejoin%3Around%3B%7D%0A%3C%2Fstyle%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M1%2C7h16%22%2F%3E%0A%3Cpath%20class%3D%22st0%22%20d%3D%22M8%2C13L1%2C7l7-6%22%2F%3E%0A%3C%2Fsvg%3E%0A"; 
