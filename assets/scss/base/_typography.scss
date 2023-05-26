@@ -80,10 +80,21 @@ p {
   margin: 0 0 2rem 0;
   font-weight: $fw-light;
   line-height: 1.5;
+  word-wrap: break-word;
+  white-space: pre-line;
 
   +h3 {
     margin: 0 0 2rem 0;
   }
+
+  span {
+    color: $heading-color;
+  }
+}
+
+h2 {
+  font-weight: $fw-regular;
+  font-size: 2rem;
 }
 
 h3 {
@@ -98,6 +109,22 @@ h4,
 h5,
 h6 {
   font-family: $heading-font;
+
+  &.code {
+    font-weight: $fw-bold;
+
+    &::before {
+      content: '<';
+      color: $primary;
+      font-weight: 700;
+    }
+
+    &::after {
+      content: ' />';
+      color: $primary;
+      font-weight: 700;
+    }
+  }
 
   &.title-default {
     font-weight: $fw-medium;
