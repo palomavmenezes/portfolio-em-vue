@@ -4,6 +4,8 @@
     <home-hero />
     <home-about />
     <home-experience />
+    <home-soft />
+    <home-hard />
     <Footer />
   </main>
 </template>

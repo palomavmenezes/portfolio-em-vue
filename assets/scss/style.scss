@@ -8,7 +8,11 @@
 @import "base/page";
 @import "base/typography";
 
-// Componentes
+// Components
 @import "components/button";
 @import "components/collapse";
 @import "components/header";
+@import "components/icons";
+
+// Pages
+@import "pages/home"
