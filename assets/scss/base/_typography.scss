@@ -162,40 +162,6 @@ h6 {
     }
   }
 
-  &.tit-sidebar {
-    font-weight: $fw-bold;
-    font-size: 1.25rem;
-  }
-
-  &.section-title {
-    font-weight: $fw-bold;
-    font-size: 2.75rem;
-
-    @media (max-width: 1200px) {
-      font-size: 2.3rem;
-    }
-
-    @media (max-width: 991px) {
-      font-size: 2rem;
-    }
-
-    @media (max-width: 599px) {
-      font-size: 1.5rem;
-    }
-
-    small {
-      text-transform: uppercase;
-      display: block;
-      font-size: 1rem;
-      font-weight: $fw-semi;
-      margin-bottom: 0.5rem;
-
-      @media (max-width: 599px) {
-        font-size: 0.8rem;
-      }
-    }
-  }
-
   &.page-subtitle {
     font-weight: $fw-semi;
     font-size: 1.4rem;
@@ -204,45 +170,6 @@ h6 {
 
   &.text-color-primary {
     color: $primary;
-  }
-}
-
-.section-title {
-  margin-bottom: 1.5rem;
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    &:not(:last-child) {
-      margin-bottom: 1.5rem;
-    }
-  }
-
-  &.white {
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $white;
-
-      &:before {
-        background-color: $white;
-      }
-    }
-
-    p {
-      color: $white;
-    }
-  }
-
-  p:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -260,16 +187,4 @@ blockquote {
   padding-left: 1rem;
   font-weight: $fw-medium;
   line-height: 1.5;
-}
-
-.list-bullet {
-  list-style-type: disc;
-  list-style-position: inside;
-  margin: 0 0 2rem 0;
-
-  li {
-    &:not(:last-child) {
-      margin: 0 0 1rem 0;
-    }
-  }
 }
