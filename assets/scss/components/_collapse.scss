@@ -1,0 +1,46 @@
+.third-section {
+  background-color: $dark-bg-gray-lower;
+
+  .bg-transparent {
+    border: none;
+
+    .card-body {
+      margin-top: 2rem;
+      padding: 0;
+    }
+  }
+  
+  .tabs {
+    .nav-pills {
+      .nav-item {
+        a {
+          width: 320px;
+          padding: 1.5rem 2rem !important;
+          background-color: $dark-bg-gray-higher;
+          margin: 0;
+          border-radius: 0 !important;
+
+          &::hover {
+            background-color: #020202;
+          }
+        }
+        .active {
+          background-color: #020202;
+          border-left: 10px solid $primary;
+
+          &::before {
+            content: '<';
+            color: $primary;
+            font-weight: 700;
+          }
+
+          &::after {
+            content: ' />';
+            color: $primary;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

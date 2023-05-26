@@ -1,10 +1,10 @@
 <template>
-  <footer>
+  <footer class="mt-4">
     <b-container>
-      <b-col class="d-flex justify-content-between align-items-center">
+      <div class="text-center">
         <p v-html="copyright" />
-        <p v-html="poweredby" />
-      </b-col>
+        <!--  <p class="d-flex" v-html="poweredby" /> -->
+      </div>
     </b-container>
   </footer>
 </template>
@@ -14,7 +14,7 @@ export default {
   data () {
     return {
       copyright: 'Copyright © 2023 <span>Paloma Menezes</span>. Todos os direitos reservados.',
-      poweredby: 'Desenvolvido por: <img src="favicon.svg" alt="Logo" width="50px">'
+      poweredby: 'Desenvolvido por: <img src="favicon.svg" alt="Logo" width="40px" class="ml-2">'
     }
   }
 }

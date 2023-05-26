@@ -1,40 +1,44 @@
 <template>
   <header>
     <b-container>
-      <nav class="navbar navbar-expand-lg">
+      <b-navbar toggleable="lg" type="dark">
         <!-- Logo -->
-        <a class="navbar-brand" href="#"><img src="/assets/img/icon/logo.svg" alt="Logo" class="img-fluid"></a>
+        <b-navbar-brand href="#" class="d-flex align-items-center">
+          <b-img src="/assets/img/icon/logo.svg" alt="Logo" class="img-fluid logo" />
+          <b-navbar-toggle target="navbarNav" class="ml-auto" />
+        </b-navbar-brand>
 
-        <div id="navbarNav" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
+        <b-collapse id="navbarNav" is-nav>
+          <b-navbar-nav class="ml-auto d-flex align-items-center">
             <!-- Links -->
-            <li class="nav-item pr-3">
-              <a class="nav-link" href="#">Quem Sou</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a class="nav-link" href="#">Experiências</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a class="nav-link" href="#">Soft Skills</a>
-            </li>
-            <li class="nav-item pr-3">
-              <a class="nav-link" href="#">Hard Skills</a>
-            </li>
-            <li class="nav-item ml-4 mr-3">
-              <a class="navbar-brand" href="#"><img src="/assets/img/icon/icon-contrast.svg" alt="Logo"></a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#"><b-img rounded="circle" src="/assets/img/icon/icon-pt-br.svg" alt="Logo" /></a>
-            </li>
-            <li class="nav-item">
-              <a class="navbar-brand" href="#"><b-img rounded="circle" src="/assets/img/icon/icon-en-us.svg" alt="Logo" /></a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+            <b-nav-item href="#" class="pr-2">
+              Quem Sou
+            </b-nav-item>
+            <b-nav-item href="#" class="pr-2">
+              Experiências
+            </b-nav-item>
+            <b-nav-item href="#" class="pr-2">
+              Portfolio
+            </b-nav-item>
+            <b-nav-item href="#" class="pr-2">
+              Soft Skills
+            </b-nav-item>
+            <b-nav-item href="#" class="pr-2">
+              Hard Skills
+            </b-nav-item>
+
+            <b-nav-item>
+              <b-img src="/assets/img/icon/icon-contrast.svg" alt="Logo" width="24px" />
+            </b-nav-item>
+            <b-nav-item>
+              <b-img rounded="circle" src="/assets/img/icon/icon-pt-br.svg" alt="Logo" />
+            </b-nav-item>
+            <b-nav-item>
+              <b-img rounded="circle" src="/assets/img/icon/icon-en-us.svg" alt="Logo" />
+            </b-nav-item>
+          </b-navbar-nav>
+        </b-collapse>
+      </b-navbar>
     </b-container>
   </header>
 </template>

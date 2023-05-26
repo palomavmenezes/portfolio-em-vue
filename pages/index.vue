@@ -3,6 +3,7 @@
     <Header />
     <home-hero />
     <home-about />
+    <home-experience />
     <Footer />
   </main>
 </template>
