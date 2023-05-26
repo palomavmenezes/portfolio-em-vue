@@ -1,8 +1,14 @@
 .fifth-section {
-    background-color: $dark-bg-gray-lower;
+  background-color: $dark-bg-gray-lower;
 
-    h6 {
-        color: $text-dark;
-        font-size: 0.9rem;
-    }
+  h6 {
+    color: $text-dark;
+    font-size: 0.9rem;
+  }
+
+  .bg-skills {
+    background-color: #000;
+    padding: 1rem;
+    border: 1px solid $primary;
+  }
 }
