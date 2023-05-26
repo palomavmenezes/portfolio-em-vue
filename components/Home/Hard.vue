@@ -9,21 +9,25 @@
       </div>
 
       <b-row>
-        <b-col v-for="option in options" :key="option.id">
+        <b-col
+          v-for="option in options"
+          :key="option.id"
+          class="bg-skills m-2 d-flex justify-content-center align-items-center"
+        >
           <a
             :class="{'collapsed': visible !== option.id}"
             :aria-expanded="visible === option.id ? 'true' : 'false'"
             :aria-controls="option.id"
             @click="toggleVisible(option.id)"
           >
-            <img :src="option.image" :alt="option.alt">
+            <img :src="option.image" :alt="option.alt" :class="option.class">
           </a>
         </b-col>
       </b-row>
 
       <b-row>
         <b-collapse v-for="option in options" :id="option.id" :key="option.id" v-model="visible">
-          <b-card v-if="visible === option.id">
+          <b-card v-if="visible === option.id" class="bg-transparent border-0">
             {{ option.content }}
           </b-card>
         </b-collapse>
