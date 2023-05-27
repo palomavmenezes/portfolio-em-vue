@@ -15,8 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: 'Front End Developer especializada em Wordpress e Vuejs' },
       { name: 'format-detection', content: 'telephone=no' },
       { rel: 'preload', as: 'style', href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap' },
-      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' }
