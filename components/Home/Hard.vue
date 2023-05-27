@@ -1,5 +1,5 @@
 <template>
-  <section class="fifth-section">
+  <section id="hard-skills" class="fifth-section">
     <b-container>
       <div class="mb-4">
         <h2 class="code" :title="title" v-html="title" />

@@ -1,5 +1,5 @@
 <template>
-  <section class="second-section">
+  <section id="about" class="second-section">
     <b-container>
       <b-row>
         <b-col md="6" class="d-flex justify-content-center align-items-center">

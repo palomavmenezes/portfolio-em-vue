@@ -1,5 +1,5 @@
 <template>
-  <section class="third-section">
+  <section id="experience" class="third-section">
     <b-container>
       <h2 class="code" :title="title" v-html="title" />
 
@@ -7,8 +7,8 @@
         <b-card class="bg-transparent border-none">
           <b-tabs pills vertical>
             <b-tab
-              v-for="experience in experiences"
-              :key="experience"
+              v-for="(experience, index) in experiences"
+              :key="index"
               :title="experience.company"
               active
             >
