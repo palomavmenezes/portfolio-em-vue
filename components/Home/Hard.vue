@@ -47,49 +47,49 @@ export default {
           id: 'html',
           image: '/assets/img/skills/icon-html.svg',
           alt: 'Imagem HTML',
-          content: 'Esse é do HTML'
+          content: 'HTML é uma linguagem de marcação usada para criar a estrutura e organizar o conteúdo de páginas web.'
         },
         {
           id: 'css',
           image: '/assets/img/skills/icon-css.svg',
           alt: 'Imagem CSS',
-          content: 'Esse é do CSS'
+          content: 'CSS é uma linguagem de estilo que define a aparência e o layout dos elementos HTML em uma página.'
         },
         {
           id: 'javascript',
           image: '/assets/img/skills/icon-javascript.svg',
           alt: 'Imagem JavaScript',
-          content: 'Esse é do JavaScript'
+          content: 'JavaScript é uma linguagem de programação que permite adicionar interatividade, comportamento e funcionalidades avançadas às páginas web.'
         },
         {
           id: 'sass',
           image: '/assets/img/skills/icon-sass.svg',
           alt: 'Imagem Sass',
-          content: 'Esse é do Sass'
+          content: 'Sass é uma extensão do CSS que adiciona recursos como variáveis, mixins e aninhamento, facilitando a escrita e a manutenção do código CSS.'
         },
         {
           id: 'vue',
           image: '/assets/img/skills/icon-vue.svg',
           alt: 'Imagem Vue',
-          content: 'Esse é do Vue'
+          content: 'Vue é um framework JavaScript progressivo usado para construir interfaces de usuário interativas e reativas.'
         },
         {
           id: 'nuxt',
           image: '/assets/img/skills/icon-nuxt.svg',
           alt: 'Imagem Nuxt',
-          content: 'Esse é do Nuxt'
+          content: 'Nuxt é um framework Vue.js que oferece funcionalidades extras para criar aplicativos web poderosos, como renderização do lado do servidor (SSR) e geração estática de sites.'
         },
         {
           id: 'wordpress',
           image: '/assets/img/skills/icon-wordpress.svg',
           alt: 'Imagem WordPress',
-          content: 'Esse é do WordPress'
+          content: 'WordPress é um sistema de gerenciamento de conteúdo (CMS) popular que permite criar, gerenciar e publicar facilmente sites e blogs.'
         },
         {
           id: 'php',
           image: '/assets/img/skills/icon-php.svg',
           alt: 'Imagem PHP',
-          content: 'Esse é do PHP'
+          content: 'PHP é uma linguagem de programação amplamente utilizada para desenvolvimento web do lado do servidor, permitindo a criação de sites dinâmicos e a interação com bancos de dados.'
         }
       ]
     }
