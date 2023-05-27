@@ -47,49 +47,49 @@ export default {
           id: 'html',
           image: '/assets/img/skills/icon-html.svg',
           alt: 'Imagem HTML',
-          content: 'HTML é uma linguagem de marcação usada para criar a estrutura e organizar o conteúdo de páginas web.'
+          content: 'HTML é a linguagem fundamental para a criação de páginas web. Com ela, podemos estruturar o conteúdo, definir cabeçalhos, parágrafos, links, imagens e criar formulários.'
         },
         {
           id: 'css',
           image: '/assets/img/skills/icon-css.svg',
           alt: 'Imagem CSS',
-          content: 'CSS é uma linguagem de estilo que define a aparência e o layout dos elementos HTML em uma página.'
+          content: 'CSS permite estilizar elementos HTML, definindo cores, fontes, tamanhos, posicionamento e animações. Podemos criar layouts responsivos, personalizar botões e criar efeitos visuais.'
         },
         {
           id: 'javascript',
           image: '/assets/img/skills/icon-javascript.svg',
           alt: 'Imagem JavaScript',
-          content: 'JavaScript é uma linguagem de programação que permite adicionar interatividade, comportamento e funcionalidades avançadas às páginas web.'
+          content: 'Com JavaScript, podemos adicionar interatividade às páginas, manipular elementos HTML, realizar validações de formulários, criar efeitos de rolagem, exibir pop-ups e consumir APIs externas. '
         },
         {
           id: 'sass',
           image: '/assets/img/skills/icon-sass.svg',
           alt: 'Imagem Sass',
-          content: 'Sass é uma extensão do CSS que adiciona recursos como variáveis, mixins e aninhamento, facilitando a escrita e a manutenção do código CSS.'
+          content: 'Sass é uma extensão do CSS que oferece recursos avançados como variáveis, mixins (reutilização de estilos) e aninhamento de seletores. Facilita a escrita e a manutenção de estilos em projetos maiores.'
         },
         {
           id: 'vue',
           image: '/assets/img/skills/icon-vue.svg',
           alt: 'Imagem Vue',
-          content: 'Vue é um framework JavaScript progressivo usado para construir interfaces de usuário interativas e reativas.'
+          content: 'Vue é um framework JavaScript que permite construir interfaces de usuário interativas, com componentes reutilizáveis e reativos. Ele facilita a manipulação do DOM, criação de rotas, gerenciamento de estado e integração com outras bibliotecas.'
         },
         {
           id: 'nuxt',
           image: '/assets/img/skills/icon-nuxt.svg',
           alt: 'Imagem Nuxt',
-          content: 'Nuxt é um framework Vue.js que oferece funcionalidades extras para criar aplicativos web poderosos, como renderização do lado do servidor (SSR) e geração estática de sites.'
+          content: 'Nuxt é um framework Vue que adiciona recursos como renderização do lado do servidor (SSR) e geração estática de sites. Isso melhora o desempenho, o SEO e permite a criação de aplicativos web complexos.'
         },
         {
           id: 'wordpress',
           image: '/assets/img/skills/icon-wordpress.svg',
           alt: 'Imagem WordPress',
-          content: 'WordPress é um sistema de gerenciamento de conteúdo (CMS) popular que permite criar, gerenciar e publicar facilmente sites e blogs.'
+          content: 'ordpress é um CMS popular que permite criar sites e blogs com facilidade, sem a necessidade de conhecimentos avançados em programação. É possível personalizar temas, adicionar plugins e gerenciar conteúdo de forma intuitiva.'
         },
         {
           id: 'php',
           image: '/assets/img/skills/icon-php.svg',
           alt: 'Imagem PHP',
-          content: 'PHP é uma linguagem de programação amplamente utilizada para desenvolvimento web do lado do servidor, permitindo a criação de sites dinâmicos e a interação com bancos de dados.'
+          content: 'PHP é uma linguagem de programação usada para desenvolvimento web do lado do servidor. Com ela, é possível criar sites dinâmicos, interagir com bancos de dados, autenticar usuários, manipular arquivos e processar formulários.'
         }
       ]
     }
