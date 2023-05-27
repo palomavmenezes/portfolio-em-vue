@@ -1,7 +1,7 @@
 <template>
-  <header>
+  <header class="mt-2 sticky-menu">
     <b-container>
-      <b-navbar toggleable="lg" type="dark">
+      <b-navbar toggleable="lg" type="dark" class="fixed-top container">
         <!-- Logo -->
         <b-navbar-brand href="#" class="d-flex align-items-center">
           <b-img src="/assets/img/icon/logo.svg" alt="Logo" class="img-fluid logo" />
@@ -11,19 +11,19 @@
         <b-collapse id="navbarNav" is-nav>
           <b-navbar-nav class="ml-auto d-flex align-items-center">
             <!-- Links -->
-            <b-nav-item href="#" class="pr-2">
+            <b-nav-item href="#about" class="pr-2">
               Quem Sou
             </b-nav-item>
-            <b-nav-item href="#" class="pr-2">
+            <b-nav-item href="#experience" class="pr-2">
               Experiências
             </b-nav-item>
             <b-nav-item href="#" class="pr-2">
               Portfolio
             </b-nav-item>
-            <b-nav-item href="#" class="pr-2">
+            <b-nav-item href="#soft-skills" class="pr-2">
               Soft Skills
             </b-nav-item>
-            <b-nav-item href="#" class="pr-2">
+            <b-nav-item href="#hard-skills" class="pr-2">
               Hard Skills
             </b-nav-item>
 
