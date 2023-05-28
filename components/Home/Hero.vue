@@ -1,7 +1,7 @@
 <template>
   <section class="first-section">
     <b-container>
-      <b-row>
+      <b-row class="invert-columns">
         <b-col md="6">
           <h2
             class="title-default mb-4"

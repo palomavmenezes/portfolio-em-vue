@@ -24,10 +24,10 @@
               <b-img src="/assets/img/icon/icon-contrast.svg" alt="Logo" width="24px" />
             </b-nav-item>
             <b-nav-item>
-              <b-img rounded="circle" src="/assets/img/icon/icon-pt-br.svg" alt="Logo" />
+              <b-img rounded="circle" src="/assets/flags/en-flag.svg" alt="English" />
             </b-nav-item>
             <b-nav-item>
-              <b-img rounded="circle" src="/assets/img/icon/icon-en-us.svg" alt="Logo" />
+              <b-img rounded="circle" src="/assets/flags/pt-flag.svg" alt="Português" />
             </b-nav-item>
           </b-navbar-nav>
         </b-collapse>

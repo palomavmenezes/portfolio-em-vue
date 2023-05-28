@@ -83,7 +83,7 @@ export default {
           id: 'wordpress',
           image: '/assets/img/skills/icon-wordpress.svg',
           alt: 'Imagem WordPress',
-          content: 'ordpress é um CMS popular que permite criar sites e blogs com facilidade, sem a necessidade de conhecimentos avançados em programação. É possível personalizar temas, adicionar plugins e gerenciar conteúdo de forma intuitiva.'
+          content: 'Wordpress é um CMS popular que permite criar sites e blogs com facilidade, sem a necessidade de conhecimentos avançados em programação. É possível personalizar temas, adicionar plugins e gerenciar conteúdo de forma intuitiva.'
         },
         {
           id: 'php',

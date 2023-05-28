@@ -10,7 +10,7 @@
               v-for="(experience, index) in experiences"
               :key="index"
               :title="experience.company"
-              active
+              :class="{ active: experience.company }"
             >
               <b-card-header class="bg-transparent p-0">
                 <div class="d-flex justify-content-between align-items-center">
