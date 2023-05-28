@@ -18,6 +18,18 @@
   }
 }
 
+.second-section {
+  @media (max-width: 767px) {
+    padding-top: 2rem;
+  }
+
+  @media (max-width: 767px) {
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
 .third-section {
   @media (max-width: 767px) {
     .tab-content {
@@ -31,15 +43,10 @@
   }
 }
 
-.second-section {
-  @media (max-width: 767px) {
-    padding-top: 2rem;
-  }
-
-  @media (max-width: 767px) {
-    img {
-      margin-bottom: 2rem;
-    }
+.fourth-section {
+  svg {
+    fill: #cf6dff;
+    width: 22px;
   }
 }
 
